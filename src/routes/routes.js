@@ -4,8 +4,6 @@ import Dashboard from '@/pages/Dashboard.vue'
 import UserProfile from '@/pages/UserProfile.vue'
 import Agendamentos from '@/pages/Agendamentos.vue'
 import agendaMedica from '@/pages/agendaMedica.vue'
-import Icons from '@/pages/Icons.vue'
-import Maps from '@/pages/Maps.vue'
 import Notifications from '@/pages/Notifications.vue'
 
 const routes = [
@@ -33,20 +31,6 @@ const routes = [
         path: 'typography',
         name: 'Liberação da agenda',
         component: agendaMedica
-      },
-      {
-        path: 'icons',
-        name: 'Icons',
-        component: Icons
-      },
-      {
-        path: 'maps',
-        name: 'Maps',
-        meta: {
-          hideFooter: true
-        },
-        component: Maps
-
       },
       {
         path: 'notifications',

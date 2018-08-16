@@ -4,7 +4,16 @@
       <md-table-row slot="md-table-row" slot-scope="{ item }">
         <md-table-cell md-label="Nome">{{ item.name }}</md-table-cell>
         <md-table-cell md-label="Horário">{{ item.hours }}</md-table-cell>
-        <md-table-cell md-label="Ação">{{ item.action }}</md-table-cell>
+        <md-table-cell md-label="Ação"> 
+        <md-button class="md-just-icon md-simple md-primary">
+            <md-icon>check</md-icon>
+            <md-tooltip md-direction="top">Consulta Realizada</md-tooltip>
+          </md-button>
+          <md-button class="md-just-icon md-simple md-danger">
+            <md-icon>close</md-icon>
+            <md-tooltip md-direction="top">Cancelar</md-tooltip>
+          </md-button>
+        </md-table-cell>
       </md-table-row>
     </md-table>
   </div>
