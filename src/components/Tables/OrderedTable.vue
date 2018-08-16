@@ -26,7 +26,7 @@ export default {
         {
           id: 1,
           name: 'Dakota Rice',
-          hours: 'Niger',
+          hours: '12:00',
           action: 'Oud-Turnhout'
         },
         {
