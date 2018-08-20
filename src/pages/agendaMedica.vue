@@ -11,13 +11,13 @@
             <div class="md-layout-item md-small-size-100 md-size-20">
               <md-field>
                 <label>Data</label>
-                <md-input v-model="data" type="date"></md-input>
+                <md-input v-model="livre.data" type="date"></md-input>
               </md-field>
             </div>
             <div class="md-layout-item md-small-size-100 md-size-20 text-right" v-for="horas in livre.hours">
               <md-field>
                 <label>Horario</label>
-                <md-input v-model="hours" type="text"></md-input>
+                <md-input v-model="horas.hours" type="text"></md-input>
               </md-field>
             </div>
               <div class="md-small-size-100">
